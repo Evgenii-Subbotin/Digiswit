@@ -3,12 +3,14 @@ Test Exercise
 
 1. How to Use documentation.
 - It have been created via Google Documents but should be available via MS Office or familiar tool
+  
 2. How to Use API Automation
 - Download SoapUI from Corporate site https://www.soapui.org/tools/soapui
 - Install the package
 - Open XML from branch by SoapUI tool
 - Tests can be run from TestSuite section.
 - notice: Failed (or more accurate, tests that can be done due to lack of test env functionality) are disabled
+  
 3.1 How to Configure UI Tests.
  - Download and Install Visual Studio Code
  - Download and Setup NodeJS on your computer.
@@ -26,6 +28,7 @@ Test Exercise
   - Create a new folder inside your project named “tests”.
   - Place File SwagLabs.spec from Branch inside “playwright-demo/tests”
   - Place File SwagLabs.spec from Branch to
+    
  3.2 How to run and verify UI tests
   From the playwright-demo directory, run the following command: `npx playwright test` OR use right click on code with Run Tests in Current File
     Test execution proof are present in two forms.
