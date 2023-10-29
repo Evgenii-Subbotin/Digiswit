@@ -27,10 +27,9 @@ Test Exercise
   - export default config;
   - Create a new folder inside your project named “tests”.
   - Place File SwagLabs.spec from Branch inside “playwright-demo/tests”
-  - Place File SwagLabs.spec from Branch to
     
- 3.2 How to run and verify UI tests
-  From the playwright-demo directory, run the following command: `npx playwright test` OR use right click on code with Run Tests in Current File
-    Test execution proof are present in two forms.
+ 3.2 How to run and verify UI tests.
+    From the playwright-demo directory, run the following command: `npx playwright test` OR use right click on code with Run Tests in Current File
+    Test execution proof are present in two forms:
       - Playwright own reporting (can be checked against test name and at right bottom corner of screen
       - Each test makes a screenshot at the end of tests (all screenshots are placed in folder SwagLabsSreens)
